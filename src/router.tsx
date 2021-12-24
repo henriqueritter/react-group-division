@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { Main } from './scenes/Main';
 
 function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<div />} />
+        <Route path="/" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
