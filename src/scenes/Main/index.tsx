@@ -1,15 +1,16 @@
 import * as React from "react";
+import '../../styles/Main.css';
 
 export const Main: React.FC = () => {
 
   return (
     <div id="mainContainer">
       <header id="mainHeader">
-        <span id="mainHeaderSpan">Criar Grupos com itens balanceados</span>
+        <span id="mainHeaderSpan">Cria Grupos com itens balanceados</span>
       </header>
       <div>
         <div id="labelInputContainer">
-          <span>Insira itens separados por vírgula</span>
+          <span>Insira os itens separados por vírgula</span>
         </div>
         <div id="inputContainer">
           <textarea name="itensTextArea" id="itensTextArea"></textarea>
@@ -20,7 +21,26 @@ export const Main: React.FC = () => {
           </select>
           <button name="submitItensButton" id="submitItensButton" onClick={() => alert('Button')} >Gerar grupos</button>
         </div>
-        <div id="responseContainer"></div>
+        <div id="responseContainer">
+          <div id="groupedItems">
+            <span>Grupo 1</span>
+            <p>Test</p>
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+          <div id="groupedItems">
+            <span>Grupo 2</span>
+            <p>Test</p>
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+          <div id="groupedItems">
+            <span>Grupo 3</span>
+            <p>Test</p>
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+        </div>
       </div>
     </div>
   )

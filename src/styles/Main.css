@@ -1,0 +1,67 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Roboto;
+}
+
+#mainHeader {
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainHeaderSpan {
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#labelInputContainer {
+  margin-top: 1em;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#inputContainer{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#itensTextArea{
+  border-radius: 0.5em;
+}
+
+#groupsQuantity{
+  border-radius: 0.5em;
+} 
+#submitItensButton{
+  border-radius: 0.5em;
+} 
+#responseContainer{
+  margin-top: 1em;
+  display: flex;
+  grid-column: auto;
+  align-items: center;
+  justify-content: center;
+} 
+#groupedItems{
+  margin-left: 1em;
+  margin-right: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: cornsilk;
+  background-size:contain;
+  border-radius: 0.2em;
+}
+
+#groupedItems span{
+  font-weight: 700;
+}
+
+#groupedItems p {
+  color:#282828;
+}
