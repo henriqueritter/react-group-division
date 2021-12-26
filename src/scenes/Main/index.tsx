@@ -8,6 +8,9 @@ export const Main: React.FC = () => {
         <span id="mainHeaderSpan">Criar Grupos com itens balanceados</span>
       </header>
       <div>
+        <div id="labelInputContainer">
+          <span>Insira itens separados por vírgula</span>
+        </div>
         <div id="inputContainer">
           <textarea name="itensTextArea" id="itensTextArea"></textarea>
           <select name="groupsQuantity" id="groupsQuantity">
